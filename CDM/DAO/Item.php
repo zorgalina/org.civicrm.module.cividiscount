@@ -304,7 +304,7 @@ class CDM_DAO_Item extends CRM_Core_DAO
      * @access public
      * @return string
      */
-    function getTableName()
+    static function getTableName()
     {
         return self::$_tableName;
     }
